@@ -30,11 +30,7 @@ PalpationMM is a **multimodal deep learning framework** for predicting lump prop
    - Gated fusion produces a unified feature representation  
    - Residual MLP predicts lump properties (binary detection, hardness, size)
 
-**Training Objective:**
-
-\[
-\mathcal{L} = \mathcal{L}_{cls} + \lambda_{adv} \mathcal{L}_{adv} + \lambda_{orth} \mathcal{L}_{orth} + \lambda_{align} \mathcal{L}_{align}
-\]
+---
 
 ## PalpationDataset
 
