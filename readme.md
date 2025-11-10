@@ -7,11 +7,11 @@ Early detection of breast lumps requires precise characterization of lump size a
 1. **PalpationDataset**: A multimodal force–motion dataset capturing tactile signals from silicone phantoms and porcine tissue. *(Dataset will be released later.)*  
 2. **PalpationMM**: A deep learning framework integrating parallel multi-scale temporal convolutions, content–style disentanglement, and gated fusion for robust lump characterization.
 
-This repository provides the code and pretrained models to reproduce the results and facilitate further research in tactile breast screening.
+This repository provides the code to facilitate further research in tactile breast screening.
 
 ## PalpationMM
 
-PalpationMM is a **multimodal deep learning framework** for predicting lump properties:
+PalpationMM is a **deep learning framework** for predicting lump properties:
 
 1. **Parallel Multi-Scale Temporal Convolutions**  
    - Depthwise dilated convolutions for capturing multi-scale temporal patterns  
