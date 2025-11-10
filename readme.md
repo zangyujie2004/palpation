@@ -1,7 +1,5 @@
 # Multimodal Palpation Sensing for Precise Prediction of Breast Lump Hardness and Size
 
----
-
 ## Overview
 
 Early detection of breast lumps requires precise characterization of lump size and hardness beyond binary classification. This project introduces:
@@ -10,8 +8,6 @@ Early detection of breast lumps requires precise characterization of lump size a
 2. **PalpationMM**: A deep learning framework integrating parallel multi-scale temporal convolutions, content–style disentanglement, and gated fusion for robust lump characterization.
 
 This repository provides the code and pretrained models to reproduce the results and facilitate further research in tactile breast screening.
-
----
 
 ## PalpationMM
 
@@ -29,8 +25,6 @@ PalpationMM is a **multimodal deep learning framework** for predicting lump prop
    - Aligns content features from force and motion modalities  
    - Gated fusion produces a unified feature representation  
    - Residual MLP predicts lump properties (binary detection, hardness, size)
-
----
 
 ## PalpationDataset
 
