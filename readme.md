@@ -1,32 +1,23 @@
-# Multimodal Palpation Sensing for Precise Prediction of Breast Lump Hardness and Size
+# Multimodal Palpation Sensing for Breast Lump Hardness and Size
+
+**Authors:** Yujie Zang¹, Shuhong Xiao², Peng Yang¹, Ying Yang¹, Zixuan Lu¹, Ruyue Sun¹, Chongpeng Wei¹, Shuyue Zheng³, Chen Wang³, Xinyang Tan¹*, Hongwei Zhang³*  
+¹Shanghai Jiao Tong University, China  
+²Zhejiang University, China  
+³Shanghai Sixth People’s Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, China  
+
+---
 
 ## Overview
 
-Early detection of breast lumps requires precise characterization of lump size and hardness beyond binary classification. This project introduces:
+This repository provides:
 
-1. **PalpationDataset**: A multimodal force–motion dataset capturing tactile signals from silicone phantoms and porcine tissue. *(Dataset will be released later.)*  
-2. **PalpationMM**: A deep learning framework integrating parallel multi-scale temporal convolutions, content–style disentanglement, and gated fusion for robust lump characterization.
+1. **PalpationDataset** – A multimodal force–motion dataset from silicone phantoms and porcine tissue.  
+   *(See [Zenodo](https://zenodo.org/records/17570517) for updates.)*
 
-This repository provides the code to facilitate further research in tactile breast screening.
+2. **PalpationMM** – A deep learning framework for robust prediction of lump hardness and size, using multi-scale temporal convolutions, content–style disentanglement, and gated fusion.
 
-## PalpationMM
+---
 
-PalpationMM is a **deep learning framework** for predicting lump properties:
+## Contact
 
-1. **Parallel Multi-Scale Temporal Convolutions**  
-   - Depthwise dilated convolutions for capturing multi-scale temporal patterns  
-   - Squeeze-and-excitation for channel reweighting
-
-2. **Content–Style Disentanglement**  
-   - Separates subject-invariant content from subject-specific style  
-   - Orthogonality regularization and adversarial learning remove examiner-specific cues
-
-3. **Gated Fusion and Refinement**  
-   - Aligns content features from force and motion modalities  
-   - Gated fusion produces a unified feature representation  
-   - Residual MLP predicts lump properties (binary detection, hardness, size)
-
-## PalpationDataset
-
-
-
+Questions regarding the dataset or code can be sent to: **zangyujie@sjtu.edu.cn**
